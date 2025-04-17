@@ -1,4 +1,4 @@
-package ar.edu.unq.po2.tp3;
+package ar.edu.unq.po2.tp3.multioperador;
 import java.util.ArrayList;
 
 public class Multioperador {

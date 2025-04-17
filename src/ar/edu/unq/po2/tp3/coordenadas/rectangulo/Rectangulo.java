@@ -1,5 +1,5 @@
-package coordenadas.rectangulo;
-import coordenadas.point.Point;
+package ar.edu.unq.po2.tp3.coordenadas.rectangulo;
+import ar.edu.unq.po2.tp3.coordenadas.point.Point;
 
 public class Rectangulo {
 	
@@ -56,16 +56,20 @@ public class Rectangulo {
 		return width;
 	}
 
-	public void setWidth(float width) {
+	protected void setWidth(float width) {
 		this.width = width;
+		this.b = a.getSumPoint(width, 0);
+		this.c = d.getSumPoint(width, 0);
 	}
 
 	public float getHeigth() {
 		return heigth;
 	}
 
-	public void setHeigth(float heigth) {
+	protected void setHeigth(float heigth) {
 		this.heigth = heigth;
+		this.d = a.getSumPoint(0, heigth);
+		this.c = b.getSumPoint(0, heigth);
 	}
 	
 	//

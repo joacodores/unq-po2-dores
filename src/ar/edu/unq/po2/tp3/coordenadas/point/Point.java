@@ -1,4 +1,4 @@
-package coordenadas.point;
+package ar.edu.unq.po2.tp3.coordenadas.point;
 
 public class Point {
 	
