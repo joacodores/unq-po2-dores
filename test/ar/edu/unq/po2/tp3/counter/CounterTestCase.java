@@ -3,9 +3,10 @@ package ar.edu.unq.po2.tp3.counter;
 import static org.junit.jupiter.api.Assertions.*;
 
 
+
 import org.junit.jupiter.api.Test;
 
-import ar.edu.unq.po2.tp3.counter.Counter;
+
 
 import org.junit.jupiter.api.BeforeEach;
 import java.util.ArrayList;
